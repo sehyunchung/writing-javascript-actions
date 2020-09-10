@@ -1,0 +1,19 @@
+{
+  "name": "writing-javascript-actions",
+  "version": "1.0.0",
+  "description": "### Getting started",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-sxhyxnchxng:sehyunchung/writing-javascript-actions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@actions/core": "^1.2.5"
+  }
+}
