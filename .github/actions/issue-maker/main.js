@@ -13,9 +13,11 @@ async function run() {
       repo: github.context.repo.repo,
       owner: github.context.repo.owner,
       title: issueTitle,
-      body: jokeBody
-    })
-  } catch (err) {}
+      body: jokeBody,
+    });
+  } catch (err) {
+    core.setFailed("Failed!!");
+  }
 }
 
 run();
