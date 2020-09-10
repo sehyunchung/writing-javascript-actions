@@ -13,7 +13,7 @@ async function run() {
       repo: github.context.repo.repo,
       owner: github.context.repo.owner,
       title: issueTitle,
-      body: jokeBody
+      body; jokeBody
     })
   } catch (err) {}
 }
