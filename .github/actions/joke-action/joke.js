@@ -1,4 +1,4 @@
-const request = require('requeset-promise')
+const request = require('request-promise')
 
 const options = {
   method: "GET",
