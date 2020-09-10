@@ -1,8 +1,8 @@
-# This is a basic workflow to help you get started with Actions
-
 name: JS Actions
 
-on: [push]
+on:
+  pull_request:
+    types: [labeled]
 
 jobs:
   action:
@@ -12,5 +12,6 @@ jobs:
 
       - name: hello-action
         uses: ./.github/actions/hello-world
-        with:
-          third-greeting: "Learning Lab User 3"
+
+      - name: ha-ha
+        uses: ./.github/actions/joke-action
