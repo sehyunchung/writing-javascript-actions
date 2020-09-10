@@ -10,7 +10,7 @@ const options = {
   json: true
 }
 
-async funcion getJoke() {
+async function getJoke() {
   const res = await request(options)
   return res.joke;
 }
